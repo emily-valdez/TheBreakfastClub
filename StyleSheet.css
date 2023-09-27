@@ -1,4 +1,18 @@
 body{
-    background-color: brown;
+    background-image: url(https://m.media-amazon.com/images/I/71QaH+a8-8L._AC_UF350,350_QL80_.jpg );
 
+} 
+
+#restaurant-collection{
+    justify-content: center; 
+    
+} 
+
+img{ 
+    display: flex;
+    overflow-x:auto ; 
+    margin: 1rem 0; 
+    max-width: calc(100vw-2rem);
+    width: 300px; 
+    height: auto;
 }
