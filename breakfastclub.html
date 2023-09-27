@@ -12,7 +12,13 @@
     <header>
       <h1>The Breakfast Club</h1>
     </header>
-    
+    <button id="button-link" type="button">We're Open</button>
+      <script>
+        const theBody = document.querySelector("body")
+        theBody.addEventListener("click", () => {
+        theBody.style.color = "red"
+      })
+    </script>
     <div class="container"> 
       <div id="restaurant-collection"></div>
       <form class="add-restaurant">
