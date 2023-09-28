@@ -37,4 +37,6 @@ newRestaurant.addEventListener("submit",(e) =>{
     e.target.reset()
 })
   
+
+
  

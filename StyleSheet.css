@@ -2,6 +2,10 @@ body{
     background-image: url(https://m.media-amazon.com/images/I/71QaH+a8-8L._AC_UF350,350_QL80_.jpg );
 } 
 
+header{
+  background-color: antiquewhite;
+}
+
 img{ 
     display: flex;
     overflow-x:auto ; 
@@ -13,6 +17,7 @@ img{
 
 button{
     border: black 4px;
+    border-style: dotted;
     background-color: rgb(240, 228, 228);
     color: black;
     text-align: center;
@@ -31,11 +36,26 @@ button{
   }
 
  h3 {
-    color: black;
+    color: red;
     border-bottom: 1px solid; 
     font-size: larger;
  }
 
  h2 {
     text-decoration: black underline;
+    background-color: antiquewhite;
+    display: inline-block;
  }
+
+ form{
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  padding: 12px;
+  top: 0px;
+  right: 0px;
+  width: 300px
+ }
+
+ 
