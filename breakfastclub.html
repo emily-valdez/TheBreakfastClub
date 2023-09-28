@@ -14,13 +14,19 @@
       <h1>The Breakfast Club</h1>
     </header>
 
-    <button id="button-link" type="button">We're Open!</button>
+    <button id="button-link" type="button">Sorry, We're Closed</button>
       <script>
         const theButton = document.getElementById("button-link")
         const theBody = document.querySelector("body")
         theButton.addEventListener("click", () => {
+        theButton.innerText = "We're Open!"
         theBody.style.color = "blue"
         theButton.style.color = "red"
+      })
+      theButton.addEventListener("dblclick", () => {
+        theButton.style.color = "black"
+        theButton.innerText = "Sorry, We're Closed"
+        theBody.style.color = "black"
       })
     </script>
     
