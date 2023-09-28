@@ -7,13 +7,14 @@ header{
 }
 
 img{ 
-    display: flex;
+    display: flex; 
     overflow-x:auto ; 
     margin: 1rem 0; 
     max-width: calc(100vw-2rem);
     width: 300px; 
     height: auto;
 } 
+
 
 button{
     border: black 4px;
@@ -45,6 +46,7 @@ button{
     text-decoration: black underline;
     background-color: antiquewhite;
     display: inline-block;
+
  }
 
  form{
@@ -57,5 +59,6 @@ button{
   right: 0px;
   width: 300px
  }
+
 
  

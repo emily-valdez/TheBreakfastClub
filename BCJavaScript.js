@@ -13,6 +13,7 @@ function renderCard (restaurant) {
     h2.textContent = restaurant.name
     const img = document.createElement('img')
     img.src = restaurant.image
+    img.alt = "Delicious breakfast foods"
     img.className = 'restaurant-avatar'
     restaurantCard.append(h2,img)
     restaurantCollection.append(restaurantCard)
@@ -36,7 +37,6 @@ newRestaurant.addEventListener("submit",(e) =>{
     renderCard(newDiner)
     e.target.reset()
 })
-  
 
 
  
