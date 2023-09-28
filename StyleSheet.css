@@ -1,11 +1,5 @@
 body{
     background-image: url(https://m.media-amazon.com/images/I/71QaH+a8-8L._AC_UF350,350_QL80_.jpg );
-
-} 
-
-#restaurant-collection{
-    justify-content: center; 
-    
 } 
 
 img{ 
@@ -15,4 +9,33 @@ img{
     max-width: calc(100vw-2rem);
     width: 300px; 
     height: auto;
-}
+} 
+
+button{
+    border: black 4px;
+    background-color: rgb(240, 228, 228);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .add-restaurant{
+    display: inline-block;
+    border-color: black;
+    border-style: inset;
+    margin: auto;
+  }
+
+ h3 {
+    color: black;
+    border-bottom: 1px solid; 
+    font-size: larger;
+ }
+
+ h2 {
+    text-decoration: black underline;
+ }
